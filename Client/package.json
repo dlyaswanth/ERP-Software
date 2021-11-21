@@ -1,0 +1,54 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": "false",
+  "proxy": "http://localhost:8001",
+  "dependencies": {
+    "@hookform/resolvers": "^2.8.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "depcheck": "^1.4.2",
+    "mdbreact": "^5.1.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.2",
+    "react-calendar": "^3.4.0",
+    "react-dom": "^17.0.2",
+    "react-google-login": "^5.2.2",
+    "react-hook-form": "^7.15.4",
+    "react-minimal-pie-chart": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.1",
+    "react-toastify": "^8.0.2",
+    "react-validation": "^3.0.7",
+    "reactstrap": "^8.10.0",
+    "validator": "^13.6.0",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "set PORT=8000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

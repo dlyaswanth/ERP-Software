@@ -1,0 +1,527 @@
+/* Home Page Image Carousel  */
+.carousel
+{
+    max-width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+/* Caption in the Home Page Carousel  */
+.carousel-caption
+{
+    color: white !important;
+}
+/* Home Page Arrow Icon in Carousel  */
+.arrow
+{
+    font-size: 70px;
+    font-weight: 300;
+}
+/* Home Page Navigation Bar   */
+.fixed-top
+{
+    /* background: #7952b3 !important; */
+    color: black;
+}
+.navbar-nav
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Contents in the home page  */
+.homeContent
+{
+    width:100%;
+    text-align: center;
+    align-items: center;
+    list-style-position: inside;
+    
+}
+/* Home Page Key Features line  */
+.homehead
+{
+    font-weight: 600;
+    font-size: 30px;
+}
+.loader
+{
+  opacity: 100%;
+}
+/* List item styling as roman numbers  */
+.homelist
+{
+    list-style-type: upper-roman;
+    position: inherit;
+    font-size: 30px;
+    font-weight: 300;
+    list-style-position: inside;
+}
+/* CSS for button  */
+button
+{
+    /* width: 150px !important; */
+    align-items: center;
+}
+/* Admin login card  */
+.admincard
+{
+    margin-top: 5%;
+    margin-left: 30%;
+    max-width: 40%;
+    margin-right: 30%;
+}
+/* Admin login card Body  */
+.card-body
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 70%;
+}
+/* Button Align in admin login page  */
+.middle
+{
+    text-align: center;	
+}
+.signin
+{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(247, 246, 246, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    /* background-color:  rgba(135, 131, 131, 0.75); */
+}
+.innercard 
+{
+    margin-bottom: 5%;
+    margin-top: 6%;
+}
+.outercard
+{
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    background-color: #e0e0e0;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(210.00, 14.000000000000002%, 89%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(210.00, 16%, 93%) 0, transparent 55%);
+        border-radius: 50px;
+    box-shadow: 
+        inset 20px 20px 60px #bebebe,
+        inset -20px -20px 60px #ffffff;
+}
+.showpassword
+{
+    cursor: pointer;
+}
+.card-body
+{
+    max-width: 350px;
+    width:70%;
+}
+.innerlist
+{
+    list-style-type:circle;
+    font-weight: 600;
+}
+.Toastify__toast
+{
+    padding: 0 !important;
+}
+.Toastify__close-button--light {
+    color: #000;
+    /* opacity: 0.3; */
+    margin-top: 15px;
+}
+.Toastify__close-button > svg {
+    fill: currentColor;
+    height: 16px; 
+    width: 14px;
+    margin-left: -50px;
+}
+.Toastify__toast-body {
+    margin: auto 0;
+    flex: 1 1 auto;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    width: 200%;
+}
+.container-fluid1 {
+    overflow: hidden;
+    margin-top: 2px;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /* max-height: 280px; */
+}
+/* Start of Footer Styling */
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #989c9e !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+.info-student
+{
+  padding: 6px 5px !important;
+}
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+/* End of Footer Styling */
+.announcements
+{
+    font-size: 50px;
+    /* margin-left: 20%; */
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.timetable
+{
+    /* border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  35px 35px 70px #bebebe,
+             -35px -35px 70px #ffffff;
+              */
+              border-radius: 50px;
+    /* background: linear-gradient(145deg, #e6e6e6, #ffffff); */
+    /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
+    box-shadow:  6px 6px 12px #a8a8a8,
+                 -6px -6px 12px #ffffff;
+}
+/* .setColor
+{
+  /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%) !important; */
+  /* background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%) !important; */
+  /* background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%); */
+  /* background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%); */
+/* }  */
+.homecard
+{
+ 
+  border-radius: 10px 50px;
+  background: #f2f2f2;
+  box-shadow:  5px 5px 10px #cccccc,
+  -5px -5px 10px #f4f4f4;
+}    
+.homecard:hover
+{
+   
+    border-radius: 10px 50px;
+    background: #f2f2f2;
+    box-shadow: 5px 5px 17px #5a5a5a,
+                -5px -5px 17px #ffffff;
+}   
+.ms-3 {
+    margin-left: 40%!important;
+}
+.inlineformcheck{
+    border: 1px solid #ced4da;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* CSS for announcements in landing page */
+.list-group-item-light
+{
+  background-color: #f4f3ee !important;
+}
+.list-group-item-light:hover{
+  background: linear-gradient(145deg, #dcdbd6, #ffffff);
+box-shadow:  6px 6px 12px #a1a09d,
+             -6px -6px 12px #ffffff;
+}
+/* CSS for student profile card */
+.our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    overflow: scroll;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  6px 6px 12px #a8a8a8,
+                 -6px -6px 12px #ffffff;
+    position: relative;
+  }
+  
+  .our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+  }
+  .nav-link.active {
+    color: #fff !important ;
+    background-color: #0d6efd !important ;
+  }
+  .black
+  {
+    color:black !important;
+  }
+  .our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+  }
+  
+  .our-team:hover .picture::before {
+    height: 100%;
+  }
+  
+  .our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background-color: white;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+  }
+  
+  .our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+  }
+  
+  .our-team .title {
+    display: block;
+    font-size: 20px;
+    color: #4e5052;
+    text-transform: capitalize;
+  }
+  
+  .our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .our-team:hover .social {
+    bottom: 0;
+  }
+  /* End of the student profile card  */
+
+/* Start of User,Admin,Staff Nav Bar Styling */
+  .sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height:100%;
+    background: #11101D;
+    z-index: 99;
+    transition: all 0.5s ease;
+    color:black;
+    min-width: 60px
+  }
+  .sidebar i{
+    color: #fff;
+    height: 60px;
+    font-size: 30px !important;
+    text-align: center;
+    line-height: 60px;
+  }
+  .sidebar .nav-list{
+    margin-top: 20px;
+    height: 100%;
+  }
+  .sidebar li{
+    position: relative;
+    margin: 0 0;
+    list-style: none;
+  }
+  .ul
+  {
+      width: 100%;
+      padding: 0;
+      padding-left: 12px;
+      padding-right: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+  }
+  .top
+  {
+    margin-top: -40 px !important;
+  }
+  .sidebar li .tooltip{
+    position: absolute;
+    top: -20px;
+    left: calc(100% + 20px);
+    z-index: 3;
+    border-radius: 10px 5px;
+    color: white;
+    background: #6c757d;
+    box-shadow:  5px 5px 17px #5a5a5a,
+             -5px -5px 17px #ffffff;
+    /* background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
+    padding: 10px 12px;
+    /* border-radius: 4px; */
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 0s;
+  }
+ 
+  .sidebar li:hover .tooltip{
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.4s ease;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .sidebar li a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    background: #11101D;
+  }
+ 
+  .sidebar li a:hover{
+    background: #FFF;
+  }
+  .sidebar li a .links_name{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    white-space: nowrap;
+    /* opacity: 0; */
+    pointer-events: none;
+    transition: 0.4s;
+  }
+  .sidebar.open li a .links_name{
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .sidebar li a:hover .links_name,
+  .sidebar li a:hover i{
+    transition: all 0.5s ease;
+    /* color: #11101D; */
+    color: rgb(117, 105, 105);
+  }
+  .sidebar li i{
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 12px;
+  }
+  @media (max-width: 420px) {
+    .sidebar li .tooltip{
+      display: none;
+    }
+  }
+  /* End of user,admin,staff navbar */
+
+.flex-sm-fill
+{
+  padding: 0.5rem 3rem !important;
+}
+.start-0
+{
+  margin-left: 0!important;
+  min-width: 100%;
+}
+.row 
+{
+  margin:5px 5px
+}
+.employeeimage
+{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 100%;
+  border-radius:0;
+  min-height: 80%;
+}
+.vl
+{
+  border-left: 1px solid black;
+  min-height:100%;
+}
+.highlightme { 
+  background-color:#FFFF00;
+  border-radius: 25px; 
+}
+.employeecard
+{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.brown
+{
+  color:grey !important;
+}
+
+.step {
+  height: 35px;
+  width: 35px;
+  margin: 0 20px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+  color:#555b6e;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+  background-color:#3a86ff;
+}
