@@ -1,0 +1,44 @@
+// user schema for the clg members
+const mongoose = require('mongoose');
+const userSchema = new mongoose.Schema({
+    name:{
+        type:String,
+        required:true
+    },
+    email:{
+        type:String,
+        required:true
+    },
+    password:{
+        type:String,
+        required:true
+    },
+    role:{
+        type:String,
+        required:true
+    },
+    profile:{
+        type:String,
+        default:"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_518099.png&f=1&nofb=1",
+    },
+    dob:{
+        type:String,
+        required:true
+    },
+    phoneNumber:{
+        type:String,
+        required:true
+    },
+    gender:{
+        type:String,
+        required:true
+    },
+    blood_Group:{
+        type:String,
+        required:true
+    },
+    details:{
+        type:{},
+    }
+})
+mongoose.model("Users",userSchema);
